@@ -12,10 +12,12 @@ body
 main
 {
 		width: 65vw;
+		height: 65vh;
 		margin: 0 auto;
 		margin-top: 10vh;
 		border-style: solid;
-		border-color: dodgerblue;
+		border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*.link
@@ -34,36 +36,40 @@ main
     color: rgba(0, 128, 255, 255);
     text-decoration: underline;
     transform: scale(0.9);
-}
+}*/
 
 .pagetitle
 {
 		color: white;
 		text-align: center;
 		font-size: 4vh;
-}*/
+}
 
 .top
 {
 		background-color: darkgray;
 		color: white;
-    height: 10vh;
+    height: 20%;
 		text-align: center;
+    width: 100%;
 }
 
 .content
 {
-		background-color: gray;
-		color: white;
-    height: 60vh;
+		background-color: RGBA(64, 64, 64, 255);
+		color: lightgray;
+		height: 70%;
 		font-size: 20px;
+    width: 100%;
+		padding-left: 10px;
 }
 
 .bottom
 {
-		background-color: darkgray;
+		background-color: black;
 		color: white;
-    height: 5vh;
+    height: 4%;
+    width: 100%;
 }
 
 footer
