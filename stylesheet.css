@@ -38,6 +38,11 @@ main
     transform: scale(0.9);
 }*/
 
+.test
+{
+	margin-top: 0;
+}
+
 .pagetitle
 {
 		color: white;
@@ -61,7 +66,7 @@ main
 		height: 70%;
 		font-size: 20px;
     width: 100%;
-		padding-left: 10px;
+		padding: 10px;
 }
 
 .bottom
