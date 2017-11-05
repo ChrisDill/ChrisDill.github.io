@@ -11,10 +11,13 @@ $(document).ready(function() {
 		$(".arta").hide().fadeIn(1200);
 		$(".artb").hide().fadeIn(1700);
 		$(".artc").hide().fadeIn(2200);
-		/*$(".link").click(function() {
-			$('html, body').animate({
-				'scrollTop': $(this.hash).offset().top,
-				'easing': "linear"
-			}, 600);
-		})*/
+
+		// testing fade out effect
+		/*$(".link").click(function() {		
+			event.preventDefault();
+			page = this.href;		
+			$("main").fadeOut(200, function() {
+				window.location = page;
+			});
+		});*/
 });
