@@ -56,7 +56,7 @@ h2
 
 .link:hover
 {
-    color: rgba(0, 128, 255, 1); /* change this to 0,75,150,1? */
+    color: rgba(0, 128, 255, 1); /* change this to 60,100,150,1? */
     text-decoration: underline;
     transform: scale(0.9);
 }
