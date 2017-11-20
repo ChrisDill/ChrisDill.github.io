@@ -84,6 +84,7 @@ h2
 
 .subtitle
 {
+	padding-top: 1.5%; 
 	color: white;
 	text-align: center;
 	font-size: 2vh;
@@ -154,7 +155,7 @@ footer
 	{
 		width: 90vw;
 	}
-	
+
 	.content
 	{
 		font-size: 15px;
