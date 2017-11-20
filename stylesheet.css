@@ -11,32 +11,32 @@ body
 
 main
 {
-		width: 65vw;
+		width: 75vw;
 		max-height: 95vh;
 		margin: 0 auto;
 		margin-top: 10vh;
 		border-style: solid;
 		border-color: black;
-    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		opacity: 0.9;
 }
 
 h2
 {
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .project
 {
-	color: lightgray;
-	transition: all 0.5s ease-in-out;
-	text-decoration: none;
+    color: lightgray;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
 }
 
 .project:hover
 {
-	color: rgba(60,100,150,1);
-	text-decoration: underline;
+    color: rgba(60,100,150,1);
+    text-decoration: underline;
 }
 
 .link
@@ -73,9 +73,16 @@ h2
 		font-size: 3vh;
 }
 
+.subtitle
+{
+		color: white;
+		text-align: center;
+		font-size: 2vh;
+}
+
 nav > ul
 {
-	border:1px solid #ccc;
+    border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -85,20 +92,19 @@ nav > ul
 
 nav > li
 {
-	display: inline;
+    display: inline;
 }
 
 nav
 {
-	text-align: center;
-	list-style:none;
-	display: inline-block;
-	margin: 0 auto;
+    text-align: center;
+    list-style:none;
+		display: inline-block;
+		margin: 0 auto;
 		width: 100%;
 		border-top: solid black 4px;
 		border-bottom: solid black 4px;
 }
-
 
 .top
 {
