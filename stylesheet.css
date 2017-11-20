@@ -41,6 +41,7 @@ h2
 
 .link
 {
+<<<<<<< HEAD
 		width: 24%;
 		color: white;
     display: inline-block;
@@ -52,6 +53,8 @@ h2
 		opacity: 0.9;
 		/* margin: 0 auto; */
 		/*background-color: green;*/
+=======
+>>>>>>> 6beb46c20c391a5b831e6db5305cf6ac8608dabf
 }
 
 .link:hover
@@ -63,14 +66,10 @@ h2
 
 .test
 {
-		margin-top: 0;
 }
 
 .pagetitle
 {
-		color: white;
-		text-align: center;
-		font-size: 3vh;
 }
 
 .subtitle
