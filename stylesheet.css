@@ -41,19 +41,6 @@ h2
 
 .link
 {
-<<<<<<< HEAD
-		width: 24%;
-		color: white;
-    display: inline-block;
-    padding: 10px;
-    transition: all 0.5s ease-in-out;
-		
-    text-decoration: none;
-		text-align: center;
-		opacity: 0.9;
-		/* margin: 0 auto; */
-		/*background-color: green;*/
-=======
 	width: 24%;
 	color: white;
 	display: inline-block;
@@ -65,7 +52,6 @@ h2
 	opacity: 0.9;
 	/* margin: 0 auto; */
 	/*background-color: green;*/
->>>>>>> 6beb46c20c391a5b831e6db5305cf6ac8608dabf
 }
 
 .link:hover
