@@ -1,9 +1,11 @@
 // background slideshow
 $.backstretch([
-	"res/back1.jpg",
-	"res/land7.jpg",
-	"res/space1.jpg"
-	], {duration: 5000, fade:1500});
+	"res/land1.jpg",
+	"res/land2.jpg",
+	"res/land3.jpg",
+	"res/space1.jpg",
+	"res/space3.jpg",
+	], {duration: 6000, fade:1500});
 
 // fade in main content
 $(document).ready(function() {			
