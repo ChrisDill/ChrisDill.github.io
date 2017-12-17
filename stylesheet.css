@@ -1,12 +1,8 @@
-/*background*/
 body
 {
 	margin: 0;
 	background-image: url("res/space1.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-attachment: fixed;*/
 	font-family: "Roboto", "Times New Roman", monospace;
 	/*font-family: "Times New Roman", Times, serif;*/
 }
@@ -14,7 +10,7 @@ body
 main
 {
 	width: 70vw;
-	max-height: 95vh;
+/*	max-height: 95vh;*/
 	margin: 0 auto;
 	margin-top: 10vh;
 	border-style: solid;
@@ -51,13 +47,13 @@ h2
 	text-decoration: none;
 	text-align: center;
 	opacity: 0.9;
-	/* margin: 0 auto; */
+	/*margin: 0 auto; */
 	/*background-color: green;*/
 }
 
 .link:hover
 {
-	color: rgba(0, 128, 255, 1); /* change this to 60,100,150,1? */
+	color: rgba(0, 128, 255, 1); /*change this to 60,100,150,1?*/
 	text-decoration: underline;
 	transform: scale(0.9);
 }
@@ -149,6 +145,7 @@ footer
 	font-size: 12px;
 	text-align: center;
 	opacity: 0.9;
+/*	vertical-align: middle;*/
 }
 
 /*media query for mobile*/
