@@ -4,7 +4,6 @@ body
 	background-image: url("res/space1.jpg");
 	/*background-attachment: fixed;*/
 	font-family: "Roboto", "Times New Roman", monospace;
-	/*font-family: "Times New Roman", Times, serif;*/
 }
 
 main
@@ -108,6 +107,7 @@ nav
 	display: inline-block;
 	margin: 0 auto;
 	width: 100%;
+	height: 15%;
 	border-top: solid black 4px;
 	border-bottom: solid black 4px;
 	background-color: RGBA(64, 64, 64, 255);
@@ -118,7 +118,7 @@ nav
 	background-color: RGBA(124, 124, 124, 255);
 	color: white;
 	width: 100%;
-	height: 15%;
+	height: 20%;
 }
 
 .content
@@ -135,17 +135,23 @@ nav
 
 footer
 {
-	background-color: black;
-	color: white;
-	width: 100vw;
-	height: 4%;
-	margin: 0 auto;
+	width: 100%;
+	height: 3%;
 	position: fixed;
 	bottom: 0;
+}
+
+.end
+{
+	background-color: black;
+	color: white;
+	width: 70vw;
+	height: 100%;
+	margin: 0 auto;
 	font-size: 12px;
 	text-align: center;
 	opacity: 0.9;
-/*	vertical-align: middle;*/
+	vertical-align: middle;
 }
 
 /*media query for mobile*/
