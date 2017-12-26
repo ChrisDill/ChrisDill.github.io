@@ -18,6 +18,11 @@ main
 	opacity: 0.9;
 }
 
+.icon
+{
+	opacity: 1.0;
+}
+
 /*project links(github etc)*/
 .project
 {
@@ -36,7 +41,7 @@ main
 .link
 {
 	width: 24%;
-	color: lightblue;
+	color: white;
 	display: inline-block;
 	padding: 10px;
 	transition: all 0.5s ease-in-out;
