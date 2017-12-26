@@ -2,14 +2,14 @@ body
 {
 	margin: 0;
 	background-image: url("res/space1.jpg");
-	/*background-attachment: fixed;*/
 	font-family: "Roboto", "Times New Roman", monospace;
 }
 
+/*main content*/
 main
 {
 	width: 70vw;
-/*	max-height: 95vh;*/
+	/*max-height: 95vh;*/
 	margin: 0 auto;
 	margin-top: 10vh;
 	border-style: solid;
@@ -18,14 +18,10 @@ main
 	opacity: 0.9;
 }
 
-h2
-{
-	font-size: 1.2em;
-}
-
+/*project links(github etc)*/
 .project
 {
-	color: lightgray;
+	color: white;
 	transition: all 0.5s ease-in-out;
 	text-decoration: none;
 }
@@ -36,18 +32,18 @@ h2
 	text-decoration: underline;
 }
 
+/*nav bar links*/
 .link
 {
 	width: 24%;
-	color: white;
+	color: lightblue;
 	display: inline-block;
 	padding: 10px;
 	transition: all 0.5s ease-in-out;
 	text-decoration: none;
 	text-align: center;
 	opacity: 0.9;
-	/*margin: 0 auto; */
-	/*background-color: green;*/
+	font-size: 18px;
 }
 
 .link:hover
@@ -62,27 +58,55 @@ h2
 	margin-top: 0;
 }
 
-.pagetitle
+.first
 {
-	margin: 0 auto;
-	padding-bottom: 2%;
+	color: lightgray;
+	padding-bottom: 0% !important;
 	padding-top: 2%; 
-	color: white;
+	margin: 0 auto;
 	text-align: center;
 	font-size: 3vh;
 }
 
-.first
+h2
 {
-	padding-bottom: 0% !important; 
+	font-size: 1.2em;
 }
 
-.subtitle
+/*.first
+{
+	padding-bottom: 0% !important; 
+}*/
+
+.second
 {
 	padding-top: 1.5%; 
-	color: white;
+	color: lightgray;
 	text-align: center;
 	font-size: 2vh;
+}
+
+/*top bar title*/
+.top
+{
+	background-color: #212121;
+	color: lightgray;
+	width: 100%;
+	height: 20%;
+}
+
+/*menu bar links*/
+nav
+{
+	background-color: #303030;
+	width: 100%;
+	height: 15%;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	margin: 0 auto;
+	border-top: solid black 4px;
+	border-bottom: solid black 4px;
 }
 
 nav > ul
@@ -100,58 +124,39 @@ nav > li
 	display: inline;
 }
 
-nav
-{
-	text-align: center;
-	list-style:none;
-	display: inline-block;
-	margin: 0 auto;
-	width: 100%;
-	height: 15%;
-	border-top: solid black 4px;
-	border-bottom: solid black 4px;
-	background-color: RGBA(64, 64, 64, 255);
-}
-
-.top
-{
-	background-color: RGBA(124, 124, 124, 255);
-	color: white;
-	width: 100%;
-	height: 20%;
-}
-
 .content
 {
-	background-color: RGBA(64, 64, 64, 255);
+	background-color: #424242;
 	color: lightgray;
 	height: 81%;
-	width: CALC(100% - padding-left + padding-right); /*92%;*/
+	width: CALC(100% - padding-left + padding-right);
 	padding: 4%;
 	padding-left: 10%;
 	padding-right: 10%;
 	font-size: 18px;
 }
 
+/*test opacity for text*/
+.words
+{
+	opacity: 0.7;
+}
+
 footer
 {
+	background-color: #424242;
+	color: white;
 	width: 100%;
 	height: 3%;
 	position: fixed;
 	bottom: 0;
-}
-
-.end
-{
-	background-color: black;
-	color: white;
-	width: 70vw;
-	height: 100%;
 	margin: 0 auto;
 	font-size: 12px;
 	text-align: center;
-	opacity: 0.9;
 	vertical-align: middle;
+	border-top-color: black;
+	border-top-style: solid;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*media query for mobile*/
