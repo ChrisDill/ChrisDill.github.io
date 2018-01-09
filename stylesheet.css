@@ -98,7 +98,7 @@ h2
 	padding-bottom: 0% !important;
 	font-size: 3vh;
 	margin: 0;
-	padding-left: 20px;
+/*	padding-left: 40px;*/
 	padding-top: 10px;
 }
 
@@ -107,7 +107,7 @@ h2
 	color: lightgray;
 	font-size: 2vh;
 	margin: 0;
-	padding-left: 20px;
+/*	padding-left: 40px;*/
 	padding-bottom: 10px;
 }
 
@@ -116,8 +116,8 @@ h2
 	background-color: #404040;
 	color: lightgray;
 	width: 100%;
-	height: 20%;
-/*	text-align: center;*/
+/*	height: 20%;*/
+	text-align: center;
 }
 
 /*menu links*/
@@ -125,7 +125,7 @@ nav
 {
 /*	background-color: #303030;*/
 	width: 100%;
-	height: 20%;
+	height: 5%;
 	text-align: center;
 	list-style: none;
 	display: inline-block;
@@ -156,10 +156,10 @@ nav > li
 	color: lightgray;
 	height: 81%;
 	width: CALC(100% - padding-left + padding-right);
-	padding: 4%;
-	padding-left: 10%;
-	padding-right: 10%;
-	font-size: 18px;
+	padding: 5%;
+	padding-left: 12%;
+	padding-right: 12%;
+	font-size: 20px;
 	opacity: 0.9;
 }
 
@@ -174,7 +174,7 @@ footer
 	background-color: #404040;
 	color: lightgray;
 	width: 100%;
-	height: 3%;
+	height: 5%;
 	position: fixed;
 	bottom: 0;
 	font-size: 12px;
