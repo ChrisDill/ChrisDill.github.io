@@ -1,4 +1,4 @@
 # ChrisDill.github.io
-Github pages website
+The source for my personal portfolio website using github pages.
 
 [You can view the site here](https://chrisdill.github.io)
