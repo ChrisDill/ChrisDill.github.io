@@ -4,14 +4,27 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <link rel="stylesheet" href="stylesheet.css">  
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel='icon' href='assets/Space.ico'>
 <title>Home</title>
+
+<!-- Cookies Notification-->
+<!--<div id='cookiesNotification'>
+  <p id='cookiesInfo'>Chris Dill uses cookies to ensure that you have a good experience on the website. By using this website you agree to the <a href='cookies'>Cookies Policy</a>.</p>
+  <p id='cookiesClose'><i class='fas fa-times'></i></p>
+</div>-->
+
+<!--TODO
+replace icon text with the images, mail image/github logo/linkedin logo
+finish content...
+setup cookie popup-->
 
 <!--heading-->
 <article class="top" id="header">
-	<h1 class="test first">Chris Dill</h1>
+	<h1 class="first">Chris Dill</h1>
 	<nav>
 		<li><a href="index.html" class="link selected">Home</a></li> 
 		<li><a href="projects.html" class="link">Projects</a></li>
+		<li><a href="blog.html" class="link">Blog</a></li>
 	</nav>
 </article>
 
@@ -19,35 +32,35 @@
 <main>
 	<!--section 1-->
 	<article class="content" id="section1">
-		<h2 class="test">Hi there!</h2>
-		<p class="test words">Welcome to my personal website. Here you can learn about me and look at the different types of work I do.</p>
-		<br>
-		<h4 class="projects contentlink">Email</h4>
-		<h4 class="projects contentlink"><a href="https://github.com/ChrisDill" class="project">Github</a>
-		</h4>
-		<h4 class="projects contentlink"><a href="https://uk.linkedin.com/" class="project">LinkedIn</a></h4>		
-		<br>
-		<br>
+		<h2>Hi there!</h2>
+		<p class="words">Welcome to my portfolio. I am an aspiring software developer interested in game development and design that has worked on a variety of projects.</p>
 		<hr>
 	</article>
 
 	<!--section 2-->
 	<article class="content" id="section2">
-		<h2 class="test">Who am I</h2>
-		<p class="words">I am an aspiring programmer and game developer from the UK.</p>
-		<p class="words">I am currently working on a few different projects, improving my skills and looking to make my next step to progress in my career.</p>
-
-		<p class="words"> Skills - C++, C#, Lua, JavaScript, PHP, SQL, Python</p>
-		<p class="words"> Technologies - OpenGL, Visual Studio, Unreal Engine</p>
+		<h2>About me</h2>
+		<p class="words">You can see some of my work on my projects page which consists of past web and software projects. Or you can take a look through some of my blog posts.
+		</p>	
+	</article>
+	
+	<!--section 3-->
+	<article class="content thing" id="section2">
+		<h4 class="projects contentlink"><a href="mailto:christopherdill@hotmail.co.uk">Email </a></h4>
+		<h4 class="projects contentlink"><a href="https://github.com/ChrisDill" class="project">Github</a>
+		</h4>
+		<h4 class="projects contentlink"><a href="https://uk.linkedin.com/" class="project">LinkedIn</a></h4>		
 	</article>
 </main>
 
 <footer>
-	<h3 class="test">Copyright © 2018 Chris Dill - all rights reserved.</h3>
+	<h2 class="workpls">Copyright © 2018 Chris Dill | Privacy | Cookies</h2>
 </footer>
 
 <!--link js-->
-<script src="jquery-1.10.2.min.js"></script>
-<script src="jquery.backstretch.min.js"></script>
-<script src="effects.js"></script> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118914878-1"></script>
+<script defer src="js/analytics.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/effects.js"></script> 
 </html>
