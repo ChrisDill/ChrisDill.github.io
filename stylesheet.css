@@ -108,20 +108,26 @@ main
 	background-color: #494949;
 }
 
-/*social media links etc*/
+/*external links*/
 .icon
 {
 	opacity: 1.0;
 	display: inline-block;
-	max-width: 10vw;
-	max-height: 10vh;
+	width: 12vw;
+	height: 8vh;
+	object-fit: fill;
 }
 
 .contentlink
 {
 	display: inline-block;
-	width: 32%;
-	padding: 15px 0px;
+	width: 30%;
+}
+
+/*dim image to show its hovered*/
+.contentlink:hover
+{
+	filter: brightness(70%);
 }
 
 /*project links(github etc)*/
@@ -144,7 +150,6 @@ main
 	color: white;
 	font-size: 6vh;
 	margin: 0;
-/*	padding-bottom: 0% !important;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -174,7 +179,7 @@ main.h2
 .words
 {
 	color: lightgray;
-	padding: 1em 0em;
+	padding: 0.8em 0em;
 	opacity: 0.9;
 }
 
