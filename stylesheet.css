@@ -113,15 +113,16 @@ main
 {
 	opacity: 1.0;
 	display: inline-block;
-	width: 12vw;
-	height: 8vh;
+	width: 100%;
+	height: 100%;
 	object-fit: fill;
 }
 
 .contentlink
 {
 	display: inline-block;
-	width: 30%;
+	width: 10%;
+	margin: 0% 5%;
 }
 
 /*dim image to show its hovered*/
@@ -138,6 +139,7 @@ main
 	text-decoration: none;
 }
 
+/*hightlight and underline text links*/
 .project:hover
 {
 	color: rgba(60,100,150,1);
@@ -235,6 +237,12 @@ footer
 	{
 		width: 100%;
 		font-size: 15px;
+	}
+	
+	.contentlink
+	{
+		width: 25%;
+		
 	}
 	
 	footer

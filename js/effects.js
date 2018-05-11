@@ -1,8 +1,8 @@
 // background slideshow
 $.backstretch([
-	"assets/land1.jpg",
-	"assets/land2.jpg",
-	"assets/land3.jpg",
+	"/assets/land1.jpg",
+	"/assets/land2.jpg",
+	"/assets/land3.jpg",
 	], {duration: 6500, fade:1500});
 
 // fade in main content
