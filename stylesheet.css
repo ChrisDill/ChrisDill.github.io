@@ -108,21 +108,21 @@ main
 	background-color: #494949;
 }
 
-/*external links*/
-.icon
-{
-	opacity: 1.0;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	object-fit: fill;
-}
-
 .contentlink
 {
 	display: inline-block;
 	width: 10%;
 	margin: 0% 5%;
+}
+
+/*external links*/
+.icon
+{
+	opacity: 1.0;
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	object-fit: fill;
 }
 
 /*dim image to show its hovered*/
@@ -241,8 +241,13 @@ footer
 	
 	.contentlink
 	{
-		width: 25%;
-		
+		width: 10%;	
+	}
+	
+	.icon
+	{
+		width: 100%;
+		height: 100%;
 	}
 	
 	footer
