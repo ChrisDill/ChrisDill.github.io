@@ -12,8 +12,8 @@
 	background-color: #1B2021;
 	color: lightgray;
 	width: 100%;
-	min-height: 155px;
 	text-align: center;
+	padding: 1%;
 }
  
 /*page links*/
@@ -150,10 +150,11 @@ main
 .first
 {
 	color: white;
-	font-size: 6vh;
+	font-size: 5vh;
 	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	display: inline-block;
 }
 
 /* main box for content*/
@@ -208,9 +209,8 @@ footer
   width: 100%;
   height: 40px;
 	margin-top: 2%;
-/*	border-top-color: black;*/
-/*	border-top-style: solid;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 1%;
 }
 
 .footerbar
@@ -223,7 +223,7 @@ footer
 }
 
 /*adjust for mobile*/
-@media (max-width:480px)
+@media (max-width:560px)
 {
 	.first
 	{
