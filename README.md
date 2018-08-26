@@ -1,4 +1,4 @@
-# ChrisDill.github.io
-The source for my personal portfolio website using github pages.
+# Website for game company
+Real name TBA.
+Testing(WIP)
 
-[You can view the site here](https://chrisdill.github.io)

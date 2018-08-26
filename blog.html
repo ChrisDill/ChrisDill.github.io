@@ -1,70 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<link rel="stylesheet" href="/stylesheet.css">  
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel='icon' href='assets/Space.ico'>
-<title>Blog</title>
+---
+title: Chris Dill | Blog
+layout: default
+---
 
-<!--menu-->
-<nav class="top" id="header">
-	<li><h1 class="first">Chris Dill</h1></li>
-	<li><a href="/index.html" class="link selected">Home</a></li> 
-	<li><a href="/projects.html" class="link">Projects</a></li>
-	<li><a href="/blog.html" class="link">Blog</a></li>
-</nav>
-
-<!--content-->
-<main>
-	<article class="content" id="header">
-		<h1 class="">Blog</h1>
-		
-		<br>
-		<h3><a href="/posts/helloworld.html" class="project">Hello world</a></h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-		
-		<h3><a href="/posts/devlog-001.html" class="project">Sirius devlog #001</a></h3>
-		<h5>Posted on 19/07/2018</h5>
-		<br>
-		
-		<h3 class="project">Generic post</h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-		
-		<h3 class="project">Generic post</h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-		
-		<h3 class="project">Generic post</h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-		
-		<h3 class="project">Generic post</h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-		
-		<h3 class="project">Generic post</h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-		
-		<h3 class="project">Generic post</h3>
-		<h5>Posted on 25/05/2018</h5>
-		<br>
-	</article>
-</main>
-
-<footer>
-	<h2 class="footerbar">Copyright © 2018 Chris Dill |
-		<a href="/policy.html" class="project">Privacy</a>
-	</h2>
-</footer>
-
-<!--link js-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118914878-1"></script>
-<script defer src="/js/analytics.js"></script>
-<script src="/js/jquery-1.10.2.min.js"></script>
-<script src="/js/jquery.backstretch.min.js"></script>
-<script src="/js/effects.js"></script> 
-</html>
+<h3>All posts</h3>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h4><a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+      <span>Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+    <br>
+  {% endfor %}
+</ul>

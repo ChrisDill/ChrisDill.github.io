@@ -1,11 +1,10 @@
 // background slideshow
-$.backstretch([
-	"/assets/scifi1.jpg",
-	"/assets/scifi2.jpg",
-	"/assets/purple-space1.jpg"
-], {duration: 6500, fade: 1500});
+$("main").backstretch([
+	"/assets/landscape1.jpg",
+	"/assets/scifi2.jpg",	
+	"/assets/space10.png",
+], {duration: 8000, fade: 1500});
 
-// fade in main content
-$(document).ready(function() {	
-		$("main").hide().fadeIn(700);
-});
+// $(window).on("backstretch.before", function (e, instance, index) {
+//     instance.options.fade = 1000;
+// });

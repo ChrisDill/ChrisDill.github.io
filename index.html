@@ -1,69 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<link rel="stylesheet" href="/stylesheet.css">  
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel='icon' href='assets/Space.ico'>
-<title>ChrisDill</title>
+---
+title: Chris Dill
+layout: default
+---
 
-<!-- Cookies Notification-->
-<!--<div id='cookiesNotification'>
-  <p id='cookiesInfo'>Chris Dill uses cookies to ensure that you have a good experience on the website. By using this website you agree to the <a href='cookies'>Cookies Policy</a>.</p>
-  <p id='cookiesClose'><i class='fas fa-times'></i></p>
-</div>-->
+<h2>Hi there!</h2>
+<p>Welcome to my personal website. I am a developer who is really interested in game development and design. This website has my portfolio showing off past web and software projects and also a blog where I improve my writing sharing some of my thoughts and also updates on things.</p>
+<br>
 
-<!--menu-->
-<nav class="top" id="header">
-	<li><h1 class="first">Chris Dill</h1></li>
-	<li><a href="/index.html" class="link selected">Home</a></li> 
-	<li><a href="/projects.html" class="link">Projects</a></li>
-	<li><a href="/blog.html" class="link">Blog</a></li>
-</nav>
+<div class="text-center">
+	<img class="img-icon" src="assets/csharplogo.png" alt="csharp logo" style="width: 120px">
+	<img class="img-icon" src="assets/xbox.png" alt="csharp logo" style="width: 200px">
+</div>
+<br>
+<br>
 
-<!--content-->
-<main>
-	
-	<!--Introduction-->
-	<article class="content" id="section1">
-		<h2>Hi there!</h2>
-		
-		<p class="words">You have found my personal website. I enjoy developing software and have a interest in game development and design. I have experience working on a variety of projects both professional and for fun.</p>
-		
-		<p class="words"> I am currently working on my skills, kepeing up to date with new technology and looking for the next step in my career.</p>
-		<hr>	
-	</article>
+<p>I am currently making a game with my friend in my spare time and contributing to open source software. If you want to see the source of some of my work, it is on my github. Feel free to contact me via email if you have anything you want to share. Feedback is very much appreciated. :)</p>
+<hr>
 
-	<!--External links-->
-	<article class="content thing" id="section2">
-		<h4 class="contentlink"><a href="mailto:chrisdude134@gmail.com" class="project"><img class="icon" src="/assets/mail-icon.png" alt="contact"></a></h4>
-				
-		<h4 class="contentlink"><a href="https://github.com/ChrisDill" class="project"><img class="icon" src="/assets/github-icon.png" alt="github"></a></h4>
-	
-		<h4 class="contentlink"><a href="https://stackoverflow.com/users/4505043/chris?tab=profile" class="project"><img class="icon" src="/assets/stackoverflow-icon.png" alt="stack overflow"></a></h4>		
-		
-		<h4 class="contentlink"><a href="https://www.linkedin.com/in/chris-dill/" class="project"><img class="icon" src="/assets/linkedin-icon.png" alt="linkedin"></a></h4>
-	</article>
-	
-	<!--Learn more-->
-	<article class="content" id="section2">
-		<h2>Learn more</h2>
-		<p class="words">You can learn more about my work on my projects page which contains past web and software projects. 
-		</p>	
-		<p class="words">Or you can take a look through some of my posts on my blog which focus more on my interests such as game development and design.</p>
-	</article>
-</main>
-
-<footer>
-	<h2 class="footerbar">Copyright © 2018 Chris Dill |
-		<a href="/policy.html" class="project">Privacy</a>
-	</h2>
-</footer>
-
-<!--link js-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118914878-1"></script>
-<script defer src="/js/analytics.js"></script>
-<script src="/js/jquery-1.10.2.min.js"></script>
-<script src="/js/jquery.backstretch.min.js"></script>
-<script src="/js/effects.js"></script> 
-</html>
+<h3>Recent posts</h3>
+{% for post in site.posts limit:2 %}
+<ul>
+	<li>
+	  <h4><a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+	  <span>Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+	</li>
+	<br>
+</ul>
+{% endfor %}
