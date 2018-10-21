@@ -1,8 +1,11 @@
 /* Cookies Notification */
 let getCookiesRead = localStorage.getItem('cookiesRead');
-if (getCookiesRead == 'confirmed') {
+if (getCookiesRead == 'confirmed') 
+{
   cookiesNotification.style.display = 'none';
-} else {
+} 
+else 
+{
   cookiesNotification.style.display = 'block';
 }
 
