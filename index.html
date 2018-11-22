@@ -3,32 +3,30 @@ title: Chris Dill
 layout: default
 ---
 
-<h2>Hi there!</h2>
-<p>Welcome to my personal website. I am a developer who is interested in game development and design. This website has my portfolio showing off past web and software projects and also my blog where I improve my writing sharing some of my thoughts and updates on things.</p>
+<h1>Hi there!</h1>
+<p>I am a developer interested in game development and likes testing new ideas. This website has my portfolio showing off past web and software projects and my blog where I share thoughts and updates on things.</p>
 <br>
 
 <div class="text-center">
-	<img class="img-icon" src="assets/csharplogo.png" alt="csharp logo" style="width: 120px">
-	<img class="img-icon" src="assets/xbox.png" alt="csharp logo" style="width: 200px">
+	<img class="img-icon image" src="assets/csharplogo.png" alt="csharp logo">
+	<img class="img-icon image" src="assets/xbox.png" alt="csharp logo">
 </div>
 <br>
 <br>
 
-<p>I am currently making a game with my friend in my spare time and contributing to open source software. You can see some of my work on github.
+<p>I am currently making a game with my friend in my spare time and contributing to a few open source projects on github.
 </p>
 	
 <p>
 Feel free to contact me via email about my work. Feedback is very much appreciated. :)
 </p>
-<hr>
 
-<h3>Recent posts</h3>
+<h3>Recent</h3>
 {% for post in site.posts limit:2 %}
 <ul>
 	<li>
 	  <h4><a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
 	  <span>Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
 	</li>
-	<br>
 </ul>
 {% endfor %}
