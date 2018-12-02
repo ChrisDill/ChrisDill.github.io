@@ -6,6 +6,13 @@
 {
 	min-height: CALC(100vh - 50px);
 	background-color: black;
+	line-height: 1.6;
+  font-size: 18px;
+}
+
+h1, h2, h3 
+{
+	line-height: 1.2;
 }
 
 nav, header, footer, .cookiesNotification
@@ -14,7 +21,6 @@ nav, header, footer, .cookiesNotification
 }
 
 /* Cookies Notification */
-
 #cookiesNotification 
 {
   text-align: center;
@@ -108,16 +114,10 @@ main p
 	font-size: 18px;
 }
 
-.image
-{
-	width: 100px;
-}
-
 .content
 {
 	background-color: #161616;
 	color: white;
-	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 30px;
 }
@@ -133,11 +133,6 @@ footer
 /*adjust for mobile*/
 @media (max-width:560px)
 {
-	.logo
-	{
-/*		width: 30px;	*/
-	}
-	
 	.navbar-brand
 	{
 		font-size: 18px;
