@@ -17,4 +17,4 @@ For example some enemies may be more aggressive and charge straight at you with 
 The end goal is not yet decided. I have a few ideas I want to try out such as a end boss maybe at a hidden location or having a main quest line you can progress through in your journey to give background to the world and your character.
 
 It is in very early development so there is not much to show just yet but there will be soon!
-I will post some more updates on the game over the next few months with hopefully some gifs/images to show some of the gameplay.
+I will post some more updates on the game at some point with hopefully some gifs/images to show.
