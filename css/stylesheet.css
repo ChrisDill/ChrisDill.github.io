@@ -1,16 +1,27 @@
 /* Chris Dill - Main stylesheet */
 
-/* wrap all except footer in this*/
-/* 100vh - height of foooter*/
-#box
-{
-	min-height: CALC(100vh - 50px);
-	background-color: black;
-	line-height: 1.6;
-  	font-size: 18px;
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-h1, h2, h3 
+main
+{
+	font-family: 'Open Sans', 'Times New Roman', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding: 30px;
+}
+
+main p
+{
+	color: #C8C8C8;
+	font-size: 18px;
+}
+
+h1, h2, h3
 {
 	line-height: 1.2;
 }
@@ -18,6 +29,18 @@ h1, h2, h3
 nav, header, footer, .cookiesNotification
 {
   font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+nav
+{
+/*	background-color: #161616;*/
+  background-color: #255C99;
+}
+
+#box
+{
+	line-height: 1.6;
+  	font-size: 18px;
 }
 
 /* Cookies Notification */
@@ -53,16 +76,9 @@ nav, header, footer, .cookiesNotification
 }
 
 /*menu bar*/
-
 .logo
 {
 	width: 45px;
-}
-
-nav
-{
-/*	background-color: #161616;*/
-  background-color: #255C99;
 }
 
 .navbar-brand
@@ -99,35 +115,12 @@ nav
 	margin-right: 10%;
 }
 
-/*main content box*/
-main
-{
-	font-family: 'Open Sans', 'Times New Roman', sans-serif;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding: 30px;
-}
-
-main p
-{
-	color: #C8C8C8;
-	font-size: 18px;
-}
-
 .content
 {
 	background-color: #161616;
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 30px;
-}
-
-/* footer box */
-footer
-{
-	background-color: #161616;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 50px;
 }
 
 /*adjust for mobile*/

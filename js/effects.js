@@ -1,5 +1,5 @@
 // background slideshow
-$("#box").backstretch([
+$("body").backstretch([
 	"/assets/landscape1.jpg",
 	"/assets/scifi2.jpg",	
 	"/assets/space10.png",
