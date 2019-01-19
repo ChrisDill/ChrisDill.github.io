@@ -5,12 +5,13 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+		line-height: 1.6;
+  	font-size: 18px;
 }
 
 main
 {
 	font-family: 'Open Sans', 'Times New Roman', sans-serif;
-	padding: 30px;
 }
 
 main p
@@ -33,12 +34,6 @@ nav
 {
 /*	background-color: #161616;*/
   background-color: #255C99;
-}
-
-#box
-{
-	line-height: 1.6;
-  	font-size: 18px;
 }
 
 /* Cookies Notification */
@@ -81,8 +76,16 @@ nav
 
 .navbar-brand
 {
-	padding-left: 10px;
-	font-size: 22px;
+	margin-left: 20px;
+	font-size: 26px;
+}
+
+/* spacing between nav items. not overflowing this way*/
+.navbar-nav > li
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
 }
 
 /*nav link colour change*/
@@ -95,14 +98,6 @@ nav
 {
   color: white;
   text-decoration: underline;
-}
-
-/* spacing between nav items*/
-.navbar-nav > li
-{
-  padding-left: 8px;
-  padding-right: 8px;
-  font-size: 16px;
 }
 
 .img-icon
@@ -119,6 +114,7 @@ nav
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 30px;
+	margin-top: 50px;
 }
 
 /*adjust for mobile*/
