@@ -4,7 +4,7 @@ layout: post
 ---
 
 Finally back with a progress update!
-Took longer than I wanted to get back to it. Mostly behind the scenes stuff but its settled down know and I am happy with the direction its going!
+Took longer than I wanted to get back to it. Mostly behind the scenes stuff but its settled down now and I am happy with the direction its going!
 
 Most work has been behind the scenes that I can't really show but I have few gifs this time! :)
 
