@@ -4,7 +4,7 @@ layout: default
 ---
 
 ### **Hi there!**
-I enjoy making software and games and also experimenting with new ideas and technology. I also blog about the work I do on the website!
+I enjoy making software and games and also experimenting with new ideas and technology. This website is my personal portfolio and my blog where I post about my work and ideas.
 
 Currently I am collaboratively working on a game and contributing to a few open source projects. You can contact me through email if you want to get in touch. Feedback is appreciated.
 
