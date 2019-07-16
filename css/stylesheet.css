@@ -1,13 +1,13 @@
 /* Chris Dill - Main stylesheet */
 
-body 
+body
 {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	line-height: 1.6;
-  font-size: 18px;
+	font-size: 18px;
 }
 
 main
@@ -32,11 +32,9 @@ nav, header, footer, .cookiesNotification
 
 nav
 {
-/*	background-color: #161616;*/
   background-color: #255C99;
 }
 
-/* Cookies Notification */
 #cookiesNotification 
 {
   text-align: center;
@@ -63,7 +61,6 @@ nav
   display: inline-block;
   margin: 0em;
   padding: 0.35em 0.5em 0.25em 0em;
-  float: right;
   cursor: pointer;
   font-size: 1.3em;
 }
@@ -77,15 +74,15 @@ nav
 .navbar-brand
 {
 	margin-left: 20px;
-	font-size: 26px;
+	font-size: 24px;
 }
 
 /* spacing between nav items. not overflowing this way*/
 .navbar-nav > li
 {
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 16px;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*nav link colour change*/

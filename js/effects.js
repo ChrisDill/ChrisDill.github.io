@@ -1,18 +1,28 @@
-// background slideshow
+/* Cookies Notification */
+let getCookiesRead = localStorage.getItem('cookiesRead');
+if (getCookiesRead == 'confirmed') 
+{
+  cookiesNotification.style.display = 'none';
+} 
+else 
+{
+  cookiesNotification.style.display = 'block';
+}
+
+cookiesClose.addEventListener('click', function() {
+  cookiesNotification.style.display = 'none';
+  localStorage.setItem('cookiesRead', 'confirmed');
+});
+
+/*Slideshow*/
 $("body").backstretch([
 	"/assets/landscape1.jpg",
 	"/assets/scifi2.jpg",	
 	"/assets/space10.png",
 ], {duration: 8000, fade: 1500, fadeFirst:false});
 
-// close solution to footer at bottom issue
-$(document).ready(function() {
-//    var docHeight = $(window).height();
-//    var footerHeight = $("footer").height();
-//    var footerTop = $("footer").position().top + footerHeight;
-//
-//    if (footerTop < docHeight) {
-////        $("footer").css("margin-top", 10 + (docHeight - footerTop) + "px");
-//				$("footer").css("margin-top", (docHeight - footerTop) - 16 + "px");
-//		}
-});
+// Google analytics
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag("js", new Date());
+gtag("config", "UA-118914878-1"); // {{ site.google_analytics }}
