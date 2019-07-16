@@ -4,9 +4,10 @@ layout: default
 ---
 
 ### **Hi there!**
-I enjoy making software and games and also experimenting with new ideas and technology. This website is my personal portfolio and my blog where I post about my work and ideas.
+I am a Software developer interested in game development and design. I am currently collaborating on a game, contributing to open source and trying out new ideas. 
 
-Currently I am collaboratively working on a game and contributing to a few open source projects. You can contact me through email if you want to get in touch. Feedback is appreciated.
+Feel free to contact me through email if you want to get in touch. 
+Feedback is appreciated.
 
 ### **Posts**
 <ul>
