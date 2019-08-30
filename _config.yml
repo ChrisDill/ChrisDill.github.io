@@ -11,5 +11,3 @@ google_analytics: UA-120787474-1
 
 # build settings
 markdown: kramdown
-theme: minima
-
