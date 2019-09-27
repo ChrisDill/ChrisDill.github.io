@@ -1,5 +1,4 @@
 # Personal portfolio website
-Started as a basic HTML5 site and is now uses Jekyll to automate site generation and support blog posts.
+Started as a basic HTML5 site for my portfolio and is now also used for my blog.
 
-Uses a custom theme similar to the default [minima](https://github.com/jekyll/minima) theme.
-Adds a slideshow background plugin and has some custom layout and style differences.
+Currently using jekyll for static site generation and is hosted using github pages.
