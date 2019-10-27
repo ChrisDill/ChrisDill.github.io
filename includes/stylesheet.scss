@@ -11,6 +11,11 @@ body
   line-height: 1.8;
 }
 
+h1, h2, h3
+{
+  line-height: 1.2;
+}
+
 header
 {
   background-color: #255C99;
@@ -53,14 +58,14 @@ main
   padding: 30px;
 }
 
-main > p
+main p
 {
   color: lightgray;
 }
 
-h1, h2, h3
+main img
 {
-	line-height: 1.2;
+  max-width: 100%;
 }
 
 footer
