@@ -2,12 +2,13 @@
 ---
 /* Chris Dill - Main stylesheet */
 
+/* General */
 body
 {
-  background: url(../assets/landscape1.jpg) no-repeat center center fixed;
+  background: #c0c2c9 url(../assets/background1.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0 auto;
-  font: 18px "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.8;
 }
 
@@ -16,46 +17,71 @@ h1, h2, h3
   line-height: 1.2;
 }
 
+h3
+{
+  font-weight: bold;
+}
+
+/* Main bar at top */
 header
 {
   background-color: #255C99;
-  border-bottom: 2px solid #161616;
+  color: white;
+  border-bottom: 2px solid black;
+}
+
+/* Nav bar logo */
+.logo
+{
+  width: 46px;
 }
 
 .navbar-brand
 {
   padding: 0;
   margin: 0;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 nav li
 {
   margin-left: 25px;
+  font-size: 16px;
 }
 
-a
+/* Link effects for the top nav bar */
+nav a
+{
+  color: white;
+}
+
+nav a:hover
+{
+  color: lightgray;
+  text-decoration: underline;
+}
+
+/* Link effects for the main content and footer */
+main a, footer a
 {
   color: lightgray;
 }
 
-a:hover
+main a:hover, footer a:hover
 {
   color: white;
-  text-decoration: underline;
 }
 
-h3
-{
-  font-weight: bold;
-}
-
+/* Main box with content*/
 main
 {
-  background-color: #161616;
+  background-color: #222222;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 3%;
   padding: 30px;
+  font-size: 18px;
 }
 
 main p
@@ -66,25 +92,37 @@ main p
 main img
 {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.posted
+{
+  font-size: 16px;
+}
+
+/* Footer after all the content */
 footer
 {
   background-color: #161616;
   color: white;
+  padding: 5px;
+  margin-bottom: 2%;
+  border-top: 2px solid #161616;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin-bottom: 3%;
-  padding: 5px;
+  border-top: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
 }
-
 
 /**
  * Syntax highlighting styles
  */
  .highlight {
   background: #fff;
-  //@extend %vertical-rhythm;
 
   .highlighter-rouge & {
     background: #eef;
