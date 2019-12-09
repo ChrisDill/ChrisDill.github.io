@@ -58,10 +58,11 @@ nav a:hover
   text-decoration: underline;
 }
 
-/* Link effects for the main content and footer */
+
+/* Link effects for main content and footer */
 main a, footer a
 {
-  color: lightgray;
+  color: #2f8dff;
 }
 
 main a:hover, footer a:hover
@@ -69,12 +70,12 @@ main a:hover, footer a:hover
   color: white;
 }
 
-/* Main box with content*/
+/* Main content*/
 main
 {
   background-color: #222222;
   color: white;
-  margin-top: 3%;
+  margin-top: 20px;
   padding: 30px;
   font-size: 18px;
 }
@@ -87,31 +88,23 @@ main p
 main img
 {
   max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.posted
-{
-  font-size: 16px;
-}
 
-/* Footer after all the content */
+/* Footer after content */
 footer
 {
-  background-color: #161616;
+  background-color: #222222;
   color: white;
-  padding: 5px;
-  margin-bottom: 2%;
-  border-top: 2px solid #161616;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-top: 2px solid black;
   text-align: center;
   vertical-align: middle;
-  line-height: 30px;
+  height: 60px;
+  line-height: 60px;
 }
+
 
 /**
  * Syntax highlighting styles
