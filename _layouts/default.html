@@ -1,67 +1,18 @@
-<!-- Chris Dill - default layout HTML -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A portfolio and blog for Chris Dill, a software developer">
-<meta name="keywords" content="games, software, web, developer, computer science, Chris Dill">
-<meta name="author" content="Chris Dill">
+  {%- include head.html -%}
 
-<title>{{ page.title }}</title>
+  <body>
 
-<!-- Using a few bootstrap features for nav and grid layout-->
-<link href="/includes/bootstrap.min.css" rel="stylesheet">
-<link href="/includes/stylesheet.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
-<link rel="shortcut icon" href="/assets/space.ico" type="image/x-icon">
+    {%- include header.html -%}
 
-<header>
-  <!-- Menu -->
-  <nav class="navbar navbar-expand-sm navbar-dark">
-    <div class="container">
-      <img class="logo" src="/assets/logo.png" alt="Logo">
-      <a class="navbar-brand" href="/index.html">Chris Dill</a>
+    <main class="container">
+    	{{ content }}
+    </main>
 
-      <!-- Button to toggle menu -->
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    {%- include footer.html -%}
 
-      <!-- Links-->
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="mailto:chris.rj.dill@gmail.com"><i class="fas fa-envelope"></i>Email</a></li>
-          <li><a href="https://github.com/ChrisDill"><i class="fab fa-github"></i>Github</a></li>
-          <li><a href="https://www.linkedin.com/in/chris-dill/l"><i class="fab fa-github"></i>LinkedIn</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
-<main class="container">
-  {{ content }}
-</main>
-
-<footer class="container">
-  <p>&copy; Chris Dill 2019 | <a href="/policy.html">Policy</a></p>
-</footer>
-
-<!-- Used for nav bar dropdown with smaller screens-->
-<script src="/includes/jquery-3.4.1.min.js" defer></script>
-<script src="/includes/bootstrap.bundle.min.js" defer></script>
-
-<!-- Google analytics -->
-<script defer>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag("js", new Date());
-  gtag("config", "UA-118914878-1");
-</script>
+  </body>
 
 </html>
