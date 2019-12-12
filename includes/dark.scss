@@ -2,8 +2,8 @@
 ---
 
 /* Dark mode */
-@media (prefers-color-scheme: dark)
-{
+/*@media (prefers-color-scheme: dark)
+{*/
   /* General */
   body
   {
@@ -22,7 +22,7 @@
     border-bottom: 2px solid #ffffff;
     color: white;
   }
-  
+
   .navbar-brand
   {
     color: black;
@@ -56,7 +56,7 @@
     background-color: #1d1d1d;
     color: #e6e6e6;
   }
-  
+
   /* Footer after content */
   footer
   {
@@ -136,4 +136,4 @@
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
   }
-}
+/*}*/
