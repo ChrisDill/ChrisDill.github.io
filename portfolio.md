@@ -1,6 +1,7 @@
 ---
-title: Chris Dill | Portfolio
 layout: default
+title: Chris Dill | Portfolio
+author: Chris Dill
 ---
 
 ### **Sirius game**

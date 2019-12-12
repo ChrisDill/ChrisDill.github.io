@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A portfolio and blog for Chris Dill, a software developer">
+<meta name="keywords" content="games, software, web, developer, computer science, Chris Dill">
+<meta name="author" content="Chris Dill">
+
+<title>{{ page.title }}</title>
+
+<!-- Using a few bootstrap features for nav and grid layout-->
+<link href="/includes/bootstrap.min.css" rel="stylesheet">
+<link href="/includes/stylesheet.css" rel="stylesheet">
+
+<script>
+  // If `prefers-color-scheme` is not supported, fall back to light mode.
+  // In this case, light.css will be downloaded with `highest` priority.
+  if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+    document.documentElement.style.display = 'none';
+    document.head.insertAdjacentHTML(
+        'beforeend',
+        '<link rel="stylesheet" href="/includes/light.css" onload="document.documentElement.style.display = \'\'">'
+    );
+  }
+</script>
+
+<!-- Load based on colour scheme -->
+<link rel="stylesheet" href="/includes/dark.css" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="/includes/light.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+<link rel="shortcut icon" href="/assets/space.ico" type="image/x-icon">

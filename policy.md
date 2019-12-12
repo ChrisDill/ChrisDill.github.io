@@ -1,6 +1,6 @@
 ---
-title: Chris Dill | Policy
 layout: default
+title: Chris Dill | Policy
 ---
 
 ## Privacy Policy

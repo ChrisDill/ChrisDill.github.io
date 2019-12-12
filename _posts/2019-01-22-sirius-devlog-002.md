@@ -1,6 +1,7 @@
 ---
-title: 'Sirius devlog #002'
 layout: post
+title: 'Sirius devlog 002'
+author: Chris Dill
 ---
 
 Finally back with a progress update!

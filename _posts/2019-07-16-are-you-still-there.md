@@ -1,6 +1,7 @@
 ---
-title: 'Are you still there?'
 layout: post
+title: 'Are you still there?'
+author: Chris Dill
 ---
 
 A quick update to get me back into putting up posts since I haven't done any for ages.

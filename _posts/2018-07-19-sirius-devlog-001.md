@@ -1,6 +1,7 @@
 ---
-title: 'Sirius devlog #001'
 layout: post
+title: 'Sirius devlog 001'
+author: Chris Dill
 ---
 
 ## Hi there!
