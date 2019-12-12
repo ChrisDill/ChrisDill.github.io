@@ -1,6 +1,7 @@
 ---
-title: 'Keeping code up to date'
 layout: post
+title: 'Keeping code up to date'
+author: Chris Dill
 ---
 
 Working on code generation for bindings. Motivated by seeing how bindings get out of date with the original. This is taking longer than I wanted however.
