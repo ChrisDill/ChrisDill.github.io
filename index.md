@@ -5,6 +5,6 @@ author: Chris Dill
 ---
 
 ### **Hi there!**
-Im a software developer learing about game development and design. Looking for opportunities to progress my career in the industry.
+I'm a software developer interested in game development and design. Currently looking for opportunities to progress my career in the industry.
 
 Contact me via email if you want to get in touch.
