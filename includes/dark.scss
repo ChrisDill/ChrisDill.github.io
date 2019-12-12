@@ -18,8 +18,19 @@
     color: black;
   }
 
+  /* Link effects for the top nav bar */
+  nav a
+  {
+    color: white;
+  }
+
+  nav a:hover
+  {
+    color: lightgray;
+  }
+
   /* Link effects */
-  nav a, main a, footer a
+  main a, footer a
   {
     color: #2f8dff;
   }
