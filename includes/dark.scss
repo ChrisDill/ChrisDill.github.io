@@ -5,11 +5,21 @@
 @media (prefers-color-scheme: dark)
 {
   /* General */
+  body
+  {
+    background-color: #1d1d1d;
+  }
+
+  h1, h2, h3, h4, h5
+  {
+    color: white;
+  }
 
   /* Main bar at top */
   header
   {
     background-color: #255c99;
+    border-bottom: 2px solid #ffffff;
     color: white;
   }
   
@@ -51,6 +61,7 @@
   footer
   {
     background-color: #1d1d1d;
+    border-top: 2px solid #ffffff;
     color: white;
   }
 

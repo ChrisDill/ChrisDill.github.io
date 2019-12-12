@@ -17,12 +17,6 @@ h1, h2, h3
   line-height: 1.2;
 }
 
-/* Main bar at top */
-header
-{
-  border-bottom: 2px solid black;
-}
-
 /* Nav bar logo */
 .logo
 {
@@ -32,7 +26,6 @@ header
 .navbar-brand
 {
   font-size: 25px;
-  margin: 0;
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
@@ -40,8 +33,10 @@ header
 
 nav li
 {
-  margin-left: 25px;
+  margin-left: 12px;
+  margin-right: 12px;
   font-size: 18px;
+  text-align: center;
 }
 
 /* Link effects for the top nav bar */
@@ -53,6 +48,7 @@ nav a:hover
 /* Main content*/
 main
 {
+  color: white;
   font-size: 18px;
   margin-top: 30px;
   padding: 30px;
@@ -63,13 +59,12 @@ main img
   max-width: 100%;
 }
 
-
 /* Footer after content */
 footer
 {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-top: 2px solid black;
+  font-size: 18px;
   height: 60px;
   line-height: 60px;
   text-align: center;
