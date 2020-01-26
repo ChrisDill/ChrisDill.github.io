@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Chris Dill | Policy
+premalink: /policy/
 ---
 
 ## Privacy Policy
