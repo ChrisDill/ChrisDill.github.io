@@ -17,14 +17,14 @@ bool IsKeyPressed(int key); // Original function
 bool IsKeyPressed(KeyboardKey key); // Takes enum directly
 ```
 
-Or a issue with pointer types like int * where you need to find out if it should be a reference to a single value or a array but you can't tell from the declaration. 
+Or a issue with pointer types like int * where you need to find out if it should be a reference to a single value or a array but you can't tell from the declaration.
 
 ```csharp
 void Thing1(ref int count); // Used as a single value
 void Thing1(int[] values);  // Used as a array
 ```
 
-My latest attempt was inspired by [this post](https://ourmachinery.com/post/creating-cross-language-apis/) that is tackling similar problems! :) 
+My latest attempt was inspired by [this post](https://ourmachinery.com/post/creating-cross-language-apis/) that is tackling similar problems! :)
 It suggests a interface definition language(.idl) to store extra higher level details instead of using the .h file.
 
 Here is a example of what it could look like.
@@ -37,7 +37,7 @@ module raylib {
     //----------------------------------------------------------------------------------
     // basic raylib types
     //----------------------------------------------------------------------------------
-    
+
     // Vector2 type
     typedef struct Vector2 {
         float x;

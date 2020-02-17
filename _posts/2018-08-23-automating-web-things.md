@@ -3,7 +3,7 @@ title: Automatic web things
 layout: post
 ---
 
-Aswell as working on the game, I have been spending some time updating this website. 
+Aswell as working on the game, I have been spending some time updating this website.
 The biggest change is updating it to use [jekyll](https://jekyllrb.com/) which is a static site generator.
 
 The big reason for trying it was to automate adding new posts. All I have to do is create a new post with the format *Year-Month-Day-Name* and it will show up in the list. Amazing! :)

@@ -8,7 +8,7 @@ author: Chris Dill
 
 This is my first devlog of the game. The idea behind this game is inspired by games like FTL - Faster than light and Heat signature that I enjoy playing alot.
 
-The name for this project is called Sirius. 
+The name for this project is called Sirius.
 Sirius is a 2D sci-fi game about travelling across a randomely generated galaxy exploring new worlds. All while gathering resources along the way to help get stronger and of course survive for as long as you can.
 
 You will need to plan and find clever solutions to getting through areas. There are different unique enemy types you can encounter each with a style that you can try to add into your "master" strategy. :)

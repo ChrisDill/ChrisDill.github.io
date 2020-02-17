@@ -5,6 +5,7 @@ premalink: /policy/
 ---
 
 ### Privacy Policy
+
 <span>Last updated: 12/12/2019<span>
 
 Chris Dill ("I", "My", or "Me") operates *GameCompanySite* (the "Site"). This page informs you of my policies regarding the collection, use and disclosure of Personal Information I receive from users of the Site.
@@ -19,6 +20,7 @@ This Log Data may include information such as your computer's Internet Protocol 
 In addition, I may use third party services such as Google Analytics that collect, monitor and analyze this.
 
 ### Cookies Policy
+
 <span>Last updated: 12/12/2019</span>
 
 Chris Dill ("I", "My") uses cookies on chrisdill.github.io (the "Service"). By using the Service, you consent to the use of cookies.
