@@ -24,9 +24,10 @@ Setup camera shake to give impact and a screen flash when a unit dies. Inspired 
 <hr>
 
 #### Technical
+
 Sirius is being made in C# using a binding of [raylib](https://github.com/ChrisDill/Raylib-cs) that I made. I learnt alot about project management, open source aswell as getting better at using git. The binding was a test at first but it quickly proved itself so started using it for the game.
 
-I changed the Entity type to be data oriented instead of using inheritance. This means Instead of player inheriting from entity, a player is a entity with a set of components. 
+I changed the Entity type to be data oriented instead of using inheritance. This means Instead of player inheriting from entity, a player is a entity with a set of components.
 
 This makes it easier to test new ideas and reuse logic since it is not tied to a type. Such as using logic for player movement with enemies creating a mind control mechanic.
 

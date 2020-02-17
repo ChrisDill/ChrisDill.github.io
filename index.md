@@ -5,6 +5,7 @@ author: Chris Dill
 ---
 
 ### Hi there!
+
 I'm a software developer interested in game development and design. Currently looking for opportunities to progress my career in the industry.
 
 Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in touch.
