@@ -3,7 +3,7 @@ layout: post
 title: 'Hello world'
 ---
 
-##### Hi there!
+##### Hi there
 
 This my first post just testing everything is working as it should be. This is currently a work in progress so things will change alot :)
 
