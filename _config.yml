@@ -1,13 +1,19 @@
 # site settings
 title: chrisdill.github.io
 email: chris.rj.dill@gmail.com
+name: Chris Dill
+
 description: >- # this means to ignore newlines until "baseurl:"
-  Chris's personal portfolio and blog.
+  Developing software, games and other fun things!
+avatar: /assets/chris-logo.png
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  chrisdill
+
+github_username: ChrisDill
 linkedin_username: chris-dill
-google_analytics: UA-120787474-1
+rss: feed.xml
+google_analytics: UA-118914878-1
 
 # build settings
 markdown: kramdown
