@@ -1,36 +1,27 @@
 /* Chris Dill - Main stylesheet */
 
 /* General */
-body
-{
+body {
   background: url(/assets/images/background1.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3
-{
-  line-height: 1.2;
-}
-
-/* Nav bar logo */
-.logo
-{
+.logo {
   width: 46px;
+  border-radius: 5px;
 }
 
-.navbar-brand
-{
+.navbar-brand {
   font-size: 25px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
 }
 
-nav li
-{
+nav li {
   margin-left: 12px;
   margin-right: 12px;
   font-size: 18px;
@@ -38,34 +29,44 @@ nav li
 }
 
 /* Link effects for the top nav bar */
-nav a:hover
-{
+nav a:hover {
   text-decoration: underline;
 }
 
 /* Main content*/
-main
-{
+main {
   color: white;
   font-size: 18px;
   margin-top: 30px;
   padding: 30px;
 }
 
-main img
-{
+main img {
   max-width: 100%;
 }
 
+.post {
+  margin-bottom: 10px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-link {
+  margin: 0;
+}
+
+.post-list li {
+  margin-bottom: 20px;
+}
+
 /* Footer after content */
-footer
-{
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+footer {
   font-size: 18px;
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   vertical-align: middle;
-  margin-bottom: 30px;
 }
