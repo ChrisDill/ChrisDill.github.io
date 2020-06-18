@@ -26,3 +26,6 @@ exclude:
   - Gemfile.lock
   - build.bat
   - build.sh
+
+plugins:
+ - jekyll-feed
