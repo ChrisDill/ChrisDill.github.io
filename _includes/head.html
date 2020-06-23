@@ -1,29 +1,24 @@
-
 <head>
+  <!-- General meta tags -->
   <meta charset="utf-8">
   <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="chris, games, software, web, developer, computer science">
+  <meta name="author" content="{{ .Site.Params.author }}">
 
-  <meta name="description" content="{{ site.description }}">
-  <meta name="keywords" content="{{ site.name }}, games, software, web, developer, computer science">
-  <meta name="author" content="{{ site.name }}">
+  <!-- Open Graph tags -->
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta property="og:title" content="{{ .Title }}" />
 
-  <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:title" content="{{ page.title }}" />
+  <title>{{ .Title }}</title>
 
-  <title>{{ page.title }}</title>
-
-  <!-- Using a few bootstrap features for nav and grid layout-->
+  <!-- Load CSS -->
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/css/stylesheet.css" rel="stylesheet">
-
-  <!-- Load based on colour scheme -->
-  <link rel="stylesheet" href="/assets/css/dark.css">
+  <link href="/assets/css/themes.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="/assets/favicon-96x96.png" sizes=96x96>
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {% include analytics.html %}
-  {%- endif -%}
 </head>
