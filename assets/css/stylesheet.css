@@ -10,21 +10,18 @@ body {
 }
 
 .logo {
-  width: 46px;
+  width: 45px;
   border-radius: 5px;
 }
 
 .navbar-brand {
-  font-size: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 1.5rem;
   padding: 0;
 }
 
 nav li {
-  margin-left: 12px;
-  margin-right: 12px;
-  font-size: 18px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -38,7 +35,7 @@ main {
   color: white;
   font-size: 18px;
   margin-top: 30px;
-  padding: 30px;
+  padding: 20px 10px;
 }
 
 main img {
@@ -64,9 +61,5 @@ main img {
 
 /* Footer after content */
 footer {
-  font-size: 18px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
+  padding: 5px;
 }
