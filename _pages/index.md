@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Chris Dill
-author: Chris Dill
+permalink: /
 ---
 
 ### Hi there
