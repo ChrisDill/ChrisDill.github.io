@@ -1,6 +1,7 @@
 ---
 title: Automatic web things
 layout: post
+author: Chris Dill
 ---
 
 Aswell as working on the game, I have been spending some time updating this website.

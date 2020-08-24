@@ -1,42 +1,37 @@
 ---
 layout: default
-title: Chris Dill | Policy
+title: Chris Dill | Privacy Policy
 permalink: /policy/
 ---
 
-### Privacy Policy
+# Privacy Policy
 
-<span>Last updated: 12/12/2019<span>
+<span>Last updated: 24/08/2020</span>
 
-Chris Dill ("I", "My", or "Me") operates *GameCompanySite* (the "Site"). This page informs you of my policies regarding the collection, use and disclosure of Personal Information I receive from users of the Site.
+Chris Dill operates **https://www.chrisdill.github.io** (the "Site"). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.
 
-I use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
+We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
 
-### Log Data
+## Log Data
 
-Like many site operators, I collect information that your browser sends whenever you visit my Site ("Log Data").
-This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of my Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.
+Like many site operators, we collect information that your browser sends whenever you visit our Site ("Log Data").
 
-In addition, I may use third party services such as Google Analytics that collect, monitor and analyze this.
+This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.
 
-### Cookies Policy
+We use Google Analytics to collect, monitor and analyze this.
 
-<span>Last updated: 12/12/2019</span>
+## Cookies
 
-Chris Dill ("I", "My") uses cookies on chrisdill.github.io (the "Service"). By using the Service, you consent to the use of cookies.
+Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.
 
-My Cookies Policy explains what cookies are, how I use cookies, how third-parties I may partner with may use cookies on the Service, and your choices regarding cookies.
+Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.
 
-### What are cookies
+## Security
 
-Cookies are small pieces of text sent by your web browser by a website you visit. A cookie file is stored in your web browser and allows the Service or a third-party to recognize you and make your next visit easier and the Service more useful to you.
+The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.
 
-### How chrisdill.github.io uses cookies
+## Changes to this Privacy Policy
 
-When you use and access the Service, I may place a number of cookies files in your web browser.
+This Privacy Policy is effective as of 24/08/2020 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
 
-I use cookies for the following purposes: to enable certain functions of the Service, to provide analytics, and to store your preferences.
-
-### What are your choices regarding cookies
-
-If you'd like to delete cookies or instruct your web browser to delete or refuse cookies, please visit the help pages of your web browser.
+We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.

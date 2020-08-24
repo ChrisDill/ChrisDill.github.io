@@ -9,7 +9,7 @@ Took longer than I wanted to get back to it. Mostly behind the scenes stuff but 
 
 Most work has been technical that I can't easily show but I have few gifs this time! :)
 
-#### Gameplay
+## Gameplay
 
 Have a basic game loop setup with a player and some enemies. Currently using basic placeholder art until the core gameplay is stable so bullets etc are plain circles. Dosn't look much yet but it works for now. :)
 
@@ -19,7 +19,7 @@ Setup camera shake to give impact and a screen flash when a unit dies. Inspired 
 
 ![progress](/assets/gifs/Sirius1-60.gif)
 
-#### Technical
+## Technical
 
 Sirius is being made in C# using a binding of [raylib](https://github.com/ChrisDill/Raylib-cs) that I made. I learnt alot about project management, open source aswell as getting better at using git. The binding was a test at first but it quickly proved itself so started using it for the game.
 

@@ -4,8 +4,6 @@ title: 'Sirius devlog 001'
 author: Chris Dill
 ---
 
-## Hi there!
-
 This is my first devlog of the game. The idea behind this game is inspired by games like FTL - Faster than light and Heat signature that I enjoy playing alot.
 
 The name for this project is called Sirius.
