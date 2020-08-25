@@ -17,7 +17,7 @@ Testing a pause mechanic that gives players time in a chaotic situation to stop 
 
 Setup camera shake to give impact and a screen flash when a unit dies. Inspired by a talk on [game juice](https://www.youtube.com/watch?v=Fy0aCDmgnxg&ab_channel=grapefrukt). Its really cool to see those effects come together to bring the game to life. Really helps with motivation too and gives me some cool ideas!
 
-![progress](/assets/gifs/Sirius1-60.gif)
+![progress](/assets/images/sirius1-60.gif)
 
 ## Technical
 
@@ -29,4 +29,4 @@ This makes it easier to test new ideas and reuse logic since it is not tied to a
 
 Also a little test using raylib example shaders on a RenderTexture2D to give the game a unique look. The results are interesting...
 
-![progress](/assets/gifs/Sirius2-60.gif)
+![progress](/assets/images/sirius2-60.gif)
