@@ -1,17 +1,15 @@
 # site settings
 title: chrisdill.github.io
-email: chris.rj.dill@gmail.com
 name: Chris Dill
-copyright: Chris Dill 2020
-
+email: chris.rj.dill@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Developing software, games and other fun things!
-avatar: /assets/chris-logo.png
-
-include: ['_pages']
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+avatar: /assets/chris-logo.png
+copyright: Chris Dill 2020
 
 github_username: ChrisDill
 linkedin_username: chris-dill
@@ -21,14 +19,16 @@ google_analytics: UA-118914878-1
 # build settings
 markdown: kramdown
 
+include: ['_pages']
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - build.bat
   - build.sh
+  - README.md
 
 plugins:
  - jekyll-feed
