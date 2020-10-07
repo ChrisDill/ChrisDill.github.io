@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Chris Dill | Portfolio
 permalink: /portfolio/
 ---

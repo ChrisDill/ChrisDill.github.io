@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Chris Dill | Privacy Policy
+layout: page
+title: Chris Dill | Policy
 permalink: /policy/
 ---
 
