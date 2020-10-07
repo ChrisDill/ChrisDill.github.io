@@ -1,11 +1,45 @@
 
+/*Default theme*/
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #C8C8C8;
+  --font-color: #ffffff;
+  --bg-color: #232629;
+  --heading-color: #ffffff;
+}
+
+/* Dark theme */
+html[data-theme='dark'] {
+  --background-color: #383c4a;
+  --font-color: #ffffff;
+  --headings-color: #ffffff;
+  --header-color: #2e323e;
+  --site-name-color: #ffffff;;
+  --site-description-color: #ffffff;
+  --nav-link-color: #57cc8a;
+  --nav-link-hover-color: #ffffff;
+  --link-color: #8bb8df;
+  --link-color-hover: 8bb8df;
+  --border-color: #3d3d3d;
+  --footer-color: #2e323e;
+}
+
 /* General */
 body {
+  background-color: #181818;
   background: url(/assets/images/background1.webp) no-repeat center center fixed;
   background-size: cover;
   margin: 0 auto;
   line-height: 1.8;
   font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+hr {
+  background-color: white;
 }
 
 .logo {
@@ -14,8 +48,16 @@ body {
 }
 
 .navbar-brand {
+  color: black;
   font-size: 1.4rem;
   padding: 0;
+}
+
+/* Main bar at top */
+header {
+  background-color: #255c99;
+  border-bottom: 2px solid #ffffff;
+  color: white;
 }
 
 nav li {
@@ -25,12 +67,35 @@ nav li {
 }
 
 /* Link effects for the top nav bar */
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  border-bottom: 3px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+/* Link effects for the top nav bar */
 nav a:hover {
   text-decoration: underline;
 }
 
+nav a:hover, main a:hover, footer a:hover {
+  color: white;
+}
+
+/* Link effects */
+main a, footer a {
+  color: #2f8dff;
+}
+
 /* Content*/
 main {
+  background-color: #181818;
+  color: #e6e6e6;
   font-size: 16px;
   margin-top: 30px;
   padding: 20px 10px;
@@ -58,5 +123,7 @@ main img {
 }
 
 footer {
+  background-color: #181818;
+  color: white;
   padding: 5px;
 }
