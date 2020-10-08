@@ -18,6 +18,7 @@ google_analytics: UA-118914878-1
 
 # build settings
 markdown: kramdown
+highlighter: rouge
 
 include: ['_pages']
 
