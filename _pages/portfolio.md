@@ -4,6 +4,8 @@ title: Chris Dill | Portfolio
 permalink: /portfolio/
 ---
 
+# Portfolio
+
 ## Sirius game
 
 I am collaboratively working on a game in my spare time. It is a topdown sci-fi shooter inspired by games such as FTL - Faster than light and Heat Signature.

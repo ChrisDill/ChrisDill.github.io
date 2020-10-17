@@ -1,17 +1,11 @@
 ---
 layout: page
-title: Chris Dill
-permalink: /
+title: Chris Dill | Blog
+permalink: /blog/
 ---
 
-# Hello there!
-
-I'm a software developer interested in game development and design. Looking for opportunities to progress my career in the industry.
-
-Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in touch.
-
 <div class="posts">
-  <h2>Posts</h2>
+  <h1>Posts</h1>
   <ul class="post-list">
     {%- assign date_format = "%b %-d, %Y" -%}
     {% for post in site.posts %}
