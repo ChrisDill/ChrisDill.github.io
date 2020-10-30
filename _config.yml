@@ -1,9 +1,8 @@
 # site settings
 title: chrisdill.github.io
 name: Chris Dill
-email: chris.rj.dill@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Developing software, games and other fun things!
+description: Developing software, games and other fun things!
+keywords: Chris, Games, Web, Software, Developer, Computer Science
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,6 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 avatar: /assets/chris-logo.png
 copyright: Chris Dill 2020
 
+email: chris.rj.dill@gmail.com
 github_username: ChrisDill
 linkedin_username: chris-dill
 rss: feed.xml
@@ -32,4 +32,4 @@ exclude:
   - README.md
 
 plugins:
- - jekyll-feed
+  - jekyll-feed
