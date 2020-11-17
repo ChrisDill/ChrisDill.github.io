@@ -7,7 +7,7 @@ keywords: Chris, Games, Web, Software, Developer, Computer Science
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-avatar: /assets/chris-logo.png
+logo: /assets/images/logo.webp
 copyright: Chris Dill 2020
 
 email: chris.rj.dill@gmail.com
