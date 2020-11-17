@@ -87,6 +87,10 @@ nav a:hover, main a:hover, footer a:hover {
   color: white;
 }
 
+.icon {
+  width: 24px;
+}
+
 /* Link effects */
 main a, footer a {
   color: #2f8dff;
