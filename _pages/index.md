@@ -17,7 +17,7 @@ Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in tou
     {% for post in site.posts limit: 5 %}
     <li>
       <h3 class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-      <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }}</span>
     </li>
     {% endfor %}
   </ul>
