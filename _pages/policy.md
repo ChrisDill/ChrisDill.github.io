@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Chris Dill | Policy
+title: Policy
+prefix: true
 permalink: /policy/
 ---
 

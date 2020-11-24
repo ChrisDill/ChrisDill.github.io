@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Chris Dill | Portfolio
+title: Portfolio
+prefix: true
 permalink: /portfolio/
 ---
 

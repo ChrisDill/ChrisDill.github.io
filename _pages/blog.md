@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Chris Dill | Blog
+title: Blog
+prefix: true
 permalink: /blog/
 ---
 
