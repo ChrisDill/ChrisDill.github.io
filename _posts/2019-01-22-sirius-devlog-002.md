@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Sirius devlog 002'
+title: Sirius devlog 002
 author: Chris Dill
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Automatic web things
 layout: post
+title: Automatic web things
 author: Chris Dill
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Keeping code up to date'
+title: Keeping code up to date
 author: Chris Dill
 ---
 

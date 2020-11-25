@@ -27,8 +27,7 @@ exclude:
   - .jekyll-cache/
   - Gemfile
   - Gemfile.lock
-  - build.bat
-  - build.sh
+  - Makefile
   - README.md
 
 plugins:
