@@ -22,5 +22,5 @@ Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in tou
     </li>
     {% endfor %}
   </ul>
-  <a href="blog">See more</a>
+  <a href="blog">See more posts</a>
 </div>
