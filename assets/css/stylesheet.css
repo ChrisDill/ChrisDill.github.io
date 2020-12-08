@@ -30,6 +30,7 @@ html[data-theme="light"] {
   --link-color-hover: #000000;
 }
 
+/* General */
 body {
   background-color: var(--background-color);
   color: var(--font-color);
@@ -54,17 +55,18 @@ hr {
 
 .logo {
   border-radius: 5px;
-  width: 45px;
+  width: 40px;
   margin-right: 10px;
 }
 
 .navbar-brand {
   color: var(--headings-color) !important;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding: 0;
 }
 
+/* Navigation */
 header {
   border-bottom: 3px solid var(--border-color);
   background-color: var(--header-color);
@@ -106,7 +108,6 @@ main {
   padding: 10px;
 }
 
-/* Link effects */
 main a, footer a {
   color: var(--link-color);
 }
@@ -115,6 +116,7 @@ main img {
   max-width: 100%;
 }
 
+/* Blog */
 .post {
   margin-bottom: 20px;
 }
