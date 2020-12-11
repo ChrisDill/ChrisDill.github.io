@@ -12,7 +12,7 @@
   --font-color: #e6e6e6;
   --line-color: #808080;
   --nav-link-color: #55bbff;
-  --nav-link-hover-color: #ffffff;
+  --nav-link-color-hover: #ffffff;
   --link-color: #55bbff;
   --link-color-hover: #ffffff;
 }
@@ -25,7 +25,7 @@ html[data-theme="light"] {
   --font-color: #181818;
   --line-color: #181818;
   --nav-link-color: #2599fd;
-  --nav-link-hover-color: #000000;
+  --nav-link-color-hover: #000000;
   --link-color: #2599fd;
   --link-color-hover: #000000;
 }
@@ -93,18 +93,10 @@ nav li a {
   text-decoration: none;
 }
 
-nav li:hover {
-  border-bottom: 3px solid var(--nav-link-color-hover);
+nav li a:hover {
+  border-bottom: 2px solid var(--nav-link-color-hover);
   color: var(--nav-link-color-hover);
   text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav a:hover, main a:hover, footer a:hover {
-  color: var(--link-color-hover);
 }
 
 /* Content */
@@ -117,6 +109,13 @@ main {
 
 main a, footer a {
   color: var(--link-color);
+  text-decoration: none;
+}
+
+main a:hover, footer a:hover {
+  border-bottom: 2px solid var(--link-color-hover);
+  color: var(--link-color-hover);
+  text-decoration: none;
 }
 
 main img {
