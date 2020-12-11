@@ -5,8 +5,8 @@ prefix: true
 permalink: /blog/
 ---
 
+<h1>Blog</h1>
 <div class="posts">
-  <h1>Posts</h1>
   <ul class="post-list">
     {%- assign date_format = "%b %-d, %Y" -%}
     {% for post in site.posts %}
