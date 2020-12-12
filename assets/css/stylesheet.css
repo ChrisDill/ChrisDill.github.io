@@ -34,7 +34,7 @@ html[data-theme="light"] {
 /* Smaller default on large screen. */
 @media (min-width: 1200px) {
   .container {
-    width: 990px;
+    width: 950px;
   }
 }
 
@@ -130,27 +130,39 @@ main img {
   max-width: 100%;
 }
 
-/* Blog */
-.post {
+.group-title {
   margin-bottom: 20px;
 }
 
+.group-title h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+.group-title span {
+  margin: 0;
+}
+
+/* Blog */
 .post-list {
   list-style: none;
   padding: 0;
 }
 
+.post {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
 .post-link {
   font-size: 1.4rem !important;
+  line-height: 1;
   margin: 0;
 }
 
 .post-meta {
   font-size: 0.9rem !important;
-}
-
-.post-list li {
-  margin-bottom: 20px;
 }
 
 .post-list li:last-child {

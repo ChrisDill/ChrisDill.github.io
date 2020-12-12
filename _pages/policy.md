@@ -5,8 +5,10 @@ prefix: true
 permalink: /policy/
 ---
 
-<h1 class="group-heading">Privacy Policy</h1>
-<span>Last updated: 23/11/2020</span>
+<div class="group-title">
+  <h1>Privacy Policy</h1>
+  <span class="post-meta">Last updated: 23/11/2020</span>
+</div>
 
 Chris Dill operates **https://www.chrisdill.github.io** (the "site"). This page informs you of the policies regarding the collection, use and disclosure of Personal Information we receive from users of the site.
 

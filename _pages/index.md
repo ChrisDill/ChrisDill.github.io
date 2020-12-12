@@ -16,11 +16,11 @@ Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in tou
   <ul class="post-list">
     {%- assign date_format = "%b %-d, %Y" -%}
     {% for post in site.posts limit: 5 %}
-    <li>
+    <li class="post">
       <h3 class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
       <span class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }}</span>
     </li>
     {% endfor %}
   </ul>
-  <a href="blog">See more posts</a>
+  <a href="blog">See more posts &rarr;</a>
 </div>

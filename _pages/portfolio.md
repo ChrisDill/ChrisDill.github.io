@@ -5,7 +5,9 @@ prefix: true
 permalink: /portfolio/
 ---
 
-# Portfolio
+<div class="group-title">
+  <h1>Portfolio</h1>
+</div>
 
 ## Sirius game
 
