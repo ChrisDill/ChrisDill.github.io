@@ -65,12 +65,12 @@ hr {
 .logo {
   border-radius: 5px;
   width: 40px;
-  margin-right: 10px;
+  margin-right: 0.4rem;
 }
 
 .navbar-brand {
   color: var(--headings-color) !important;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   padding: 0;
 }
@@ -81,6 +81,11 @@ header {
   background-color: var(--header-color);
   color: var(--font-color);
   font-family: var(--font1);
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav li {
