@@ -15,7 +15,7 @@ Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in tou
   <h2>Posts</h2>
   <ul class="post-list">
     {%- assign date_format = "%b %-d, %Y" -%}
-    {% for post in site.posts limit: 5 %}
+    {% for post in site.posts limit: 4 %}
     <li class="post">
       <h3 class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
       <span class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }}</span>

@@ -4,7 +4,7 @@ title: Hello world
 author: Chris Dill
 ---
 
-This my first post just testing everything is working as it should be. This is currently a work in progress so things will change alot :)
+This my first post just testing everything is working as it should be. This is currently a work in progress so things will change alot. :)
 
 [![xkcd computer_problems](https://imgs.xkcd.com/comics/computer_problems.png)](https://xkcd.com/722/)
 
