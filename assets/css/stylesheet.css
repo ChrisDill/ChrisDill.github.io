@@ -32,9 +32,9 @@ html[data-theme="light"] {
 }
 
 /* Smaller default on large screen. */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .container {
-    width: 950px;
+    width: 900px;
   }
 }
 
