@@ -6,7 +6,7 @@ categories: writing
 tags: [notes, reminder] 
 ---
 
-The more I try to force myself to think of a good idea the more frustrated it gets when nothing seems good. Every time I think I might have something it doesn't take long to think of all its flaws.
+The more I try to force myself to think of a good idea the more frustrating it is when nothing seems good. Every time I think I might have something it doesn't take long to think of all the flaws.
 
 There is a common saying that you are your own worse critic. While I could actually have a good idea, in the moment I am relying on my initial jugdement on if I should keep it. I have found it helps to practice writing down my ideas despite what I think of it in the moment and then come back to the list of ideas every so often.
 
