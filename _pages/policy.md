@@ -7,12 +7,12 @@ permalink: /policy/
 
 <div class="group-title">
   <h1>Privacy Policy</h1>
-  <span class="post-meta">Last updated: 23/11/2020</span>
+  <span class="post-meta">Last updated: <b>10/02/2021</b></span>
 </div>
 
-Chris Dill operates **https://www.chrisdill.github.io** (the "site"). This page informs you of the policies regarding the collection, use and disclosure of Personal Information we receive from users of the site.
+Chris Dill operates **https://www.chrisdill.github.io** (the "site"). This page informs you of the policies regarding the collection, use and disclosure of personal information we receive from users of the site.
 
-We use your Personal Information only for providing and improving the site. By using the site, you agree to the collection and use of information in accordance with this policy.
+We use your personal information only for providing and improving the site. By using the site, you agree to the collection and use of information in accordance with this policy.
 
 ## Log Data
 
@@ -30,10 +30,8 @@ Like many sites, we use "cookies" to collect information. You can instruct your 
 
 ## Security
 
-The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.
+The security of your personal information is important to us, but remember that no method of transmission over the internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.
 
 ## Changes to this Privacy Policy
 
-This Privacy Policy is effective as of 23/11/2020 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
-
-We reserve the right to update or change the Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.
+We reserve the right to change or amend our policy in the future. Any changes will be in effect immediately after being posted on this page. Please check back regularly to see any updates or changes to our privacy policy.
