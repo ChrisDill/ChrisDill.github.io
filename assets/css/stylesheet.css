@@ -99,6 +99,7 @@ nav li {
 nav li a {
   color: var(--nav-link-color);
   text-decoration: none;
+  transition: color 0.1s linear;
 }
 
 nav li a:hover {
@@ -118,6 +119,7 @@ main {
 main a, footer a {
   color: var(--link-color);
   text-decoration: none;
+  transition: color 0.1s linear;
 }
 
 main a:hover, footer a:hover {
@@ -131,7 +133,9 @@ main img {
 }
 
 .group-title {
+  border-bottom: 2px solid var(--line-color);
   margin-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .group-title h1 {
