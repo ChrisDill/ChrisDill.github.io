@@ -91,7 +91,6 @@ nav {
 nav li {
   font-size: 1rem;
   font-weight: bold;
-  padding: 2px 8px;
   text-align: center;
 }
 
@@ -99,6 +98,7 @@ nav li {
 nav li a {
   color: var(--nav-link-color);
   text-decoration: none;
+  padding: 4px 8px;
   transition: color 0.1s linear;
 }
 
