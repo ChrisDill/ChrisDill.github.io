@@ -39,8 +39,13 @@ html[data-theme="light"] {
 }
 
 /* General */
+html {
+  min-height: 100%;
+}
+
 body {
   background-color: var(--background-color);
+  background: linear-gradient(60deg, #333333, #444444);
   color: var(--font-color);
   font-family: var(--font2);
   margin: 0 auto;
