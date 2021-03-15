@@ -6,8 +6,8 @@
 
 /* Dark theme */
 :root {
-  --background-color: #333333;
-  --header-color: #181818;
+  --background-color: #36393f;
+  --header-color: #202225;
   --border-color: #dc7d29;
   --headings-color: #ffffff;
   --font-color: #e6e6e6;
@@ -150,6 +150,16 @@ main img {
 
 .group-title span {
   margin: 0;
+}
+
+/* Code highlights */
+.highlight {
+  border-radius: 3px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
 }
 
 /* Blog */
