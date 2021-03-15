@@ -12,7 +12,6 @@ I'm a software developer interested in game development and design. Looking for 
 
 Contact me via [email](mailto:chris.rj.dill@gmail.com) if you want to get in touch.
 
-<hr>
 <div class="posts">
   <h2>Posts</h2>
   <ul class="post-list">
